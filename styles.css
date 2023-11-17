@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #3161e0;
+  height: 80vh;
+  padding-block: 2%;
+  padding-inline: 7%;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+figure,
+nav,
+.btn {
+  min-height: 40px;
+  background-color: white;
+}
+
+nav {
+  min-width: 45%;
+}
+figure,
+.btn {
+  min-width: 10%;
+}
+
+.head-content,
+.head-cta {
+  width: 45%;
+  min-height: 40vh;
+  background-color: #c3d4fb;
+  margin: 20px auto 0;
+}
+
+.head-cta {
+  margin-block: 0;
+  min-height: 80px;
+  background-color: wheat;
+  display: flex;
+}
+.btn-cta1,
+.btn-cta2 {
+  width: 50%;
+  min-height: inherit;
+}
+
+.btn-cta2 {
+  background-color: black;
+}
