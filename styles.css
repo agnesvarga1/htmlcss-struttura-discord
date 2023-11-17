@@ -3,12 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+header,
+main,
+footer {
+  padding-inline: 7%;
+}
 header {
   background-color: #3161e0;
   height: 80vh;
   padding-block: 2%;
-  padding-inline: 7%;
 }
 
 .header-top {
@@ -29,17 +32,17 @@ figure,
 .btn {
   min-width: 10%;
 }
-
-.head-content,
-.head-cta {
+.head-jumbotron {
+  margin: 20px auto 0;
   width: 45%;
+}
+
+.head-content {
   min-height: 40vh;
   background-color: #c3d4fb;
-  margin: 20px auto 0;
 }
 
 .head-cta {
-  margin-block: 0;
   min-height: 80px;
   background-color: wheat;
   display: flex;
@@ -52,4 +55,28 @@ figure,
 
 .btn-cta2 {
   background-color: black;
+}
+
+/* .section-2,
+.section-3*/
+.section-1 {
+  height: 70vh;
+  background-color: pink;
+  padding-block: 2%;
+}
+.flex-container {
+  display: flex;
+  gap: 20px;
+}
+.section-1 figure,
+.section-1 article {
+  width: 50%;
+}
+
+.section-1 figure {
+  background-color: #3a394f;
+}
+
+.section-1 article {
+  border: 1px solid rgb(43, 42, 42);
 }
