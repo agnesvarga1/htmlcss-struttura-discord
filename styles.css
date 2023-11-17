@@ -62,9 +62,8 @@ header figure,
 
 .section-3,
 .section-2,
-.section-1,
-.section-4 {
-  min-height: 80vh;
+.section-1 {
+  min-height: 70vh;
   padding-block: 2%;
 }
 .flex-container {
@@ -87,4 +86,35 @@ main article {
 .section-2,
 .section-4 {
   background-color: #f6f6f6;
+}
+.section-4 {
+  height: 80vh;
+  padding-block: 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-4-content {
+  min-height: 20vh;
+  background-color: #c3d4fb;
+}
+
+.section-4 figure {
+  width: 100%;
+  min-height: 45vh;
+}
+
+.section-4 .jumbotron {
+  justify-content: flex-end;
+  min-height: 20vh;
+  background-color: #c3d4fb;
+}
+
+.section-4 .jumbotron .btn {
+  min-height: 50px;
+  background-color: #8ea1e1;
+}
+
+.jumbotron .flex-container {
+  flex-direction: column;
 }
